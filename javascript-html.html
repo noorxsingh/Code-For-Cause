@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Devlopment</title>
+  <style>
+      body {
+          font-family: 'Arial', sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f8f8f8;
+          color: #333;
+      }
+
+
+
+
+      header {
+          background-color: #333;
+          color: white;
+          text-align: center;
+          padding: 1rem;
+      }
+
+
+
+
+      main {
+          max-width: 800px;
+          margin: 20px auto;
+          padding: 20px;
+          background-color: white;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+
+
+
+      h1 {
+          color: white;
+      }
+
+
+
+
+      .link-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          margin-top: 20px;
+      }
+
+
+
+
+      .link-card {
+          flex: 0 1 calc(25.25% - 20px);
+          margin-bottom: 25px; /* Adjusted margin for closer spacing */
+          background-color: #fff;
+          border: 1px solid #ddd;
+          border-radius: 8px;
+          padding: 20px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          transition: transform 0.3s ease-in-out;
+      }
+
+
+
+
+      .link-card:hover {
+          transform: scale(1.05);
+      }
+
+
+
+
+      .link-card a {
+          text-decoration: none;
+          color: #333;
+          font-size: 16px;
+      }
+
+
+      .BackPage-button {
+           background: linear-gradient(to bottom right, #555558, #d7dbe0);
+           border: 0;
+           border-radius: 12px;
+           color: #FFFFFF;
+           cursor: pointer;
+           display: inline-block;
+           font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+           font-size: 16px;
+           font-weight: 500;
+           line-height: 2.5;
+           outline: transparent;
+           padding: 0 1rem;
+           text-align: center;
+           text-decoration: none;
+           transition: box-shadow .2s ease-in-out;
+           user-select: none;
+           -webkit-user-select: none;
+           touch-action: manipulation;
+           white-space: nowrap;
+       }
+
+
+       .BackPage-button:not([disabled]):focus {
+           box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(35, 31, 42, 0.5), .125rem .125rem 1rem rgba(35, 31, 42, 0.5);
+       }
+
+
+       .BackPage-button:not([disabled]):hover {
+           box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(35, 31, 42, 0.5), .125rem .125rem 1rem rgba(35, 31, 42, 0.5);
+       }
+  </style>
+</head>
+<body>
+  <header>
+      <h1>JavaScript and HTML</h1>
+  </header>
+
+
+
+
+  <main>
+      <div class="link-container">
+          <div class="link-card">
+              <a href="https://www.codecademy.com/catalog/language/html-css" target="_blank">
+                  <h3>Codecademy</h3>
+                  <p>Learn HTML and CSS with real practice on an IDE!</p>
+              </a>
+          </div>
+
+
+
+
+          <div class="link-card">
+              <a href="https://www.coursera.org/learn/html-css-javascript-for-web-developers" target="_blank">
+                  <h3>Coursera</h3>
+                  <p>Learn the fundamentals of java from professors from John Hopkins University!</p>
+              </a>
+          </div>
+
+
+
+
+          <div class="link-card">
+              <a href="https://www.youtube.com/watch?v=HGTJBPNC-Gw" target="_blank">
+                  <h3>BroCode</h3>
+                  <p>Learn HTML with follow-along activities!</p>
+              </a>
+          </div>
+        
+          <!-- Add more link cards as needed -->
+      </div>
+
+
+      <a href="cscatalog.html" class="BackPage-button">Back</a>
+     
+  </main>
+
+
+
+
+  <!-- Footer section -->
+</body>
+</html>

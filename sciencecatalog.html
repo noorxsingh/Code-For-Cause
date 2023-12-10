@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IsoAccess Web Portal</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .course-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Additional styles for redirect buttons */
+        .enroll-button {
+           background: linear-gradient(to bottom right, #100dc2, #047af7);
+           border: 0;
+           border-radius: 12px;
+           color: #FFFFFF;
+           cursor: pointer;
+           display: inline-block;
+           font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+           font-size: 16px;
+           font-weight: 500;
+           line-height: 2.5;
+           outline: transparent;
+           padding: 0 1rem;
+           text-align: center;
+           text-decoration: none;
+           transition: box-shadow .2s ease-in-out;
+           user-select: none;
+           -webkit-user-select: none;
+           touch-action: manipulation;
+           white-space: nowrap;
+       }
+
+
+       .enroll-button:not([disabled]):focus {
+           box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(79, 11, 188, 0.5), .125rem .125rem 1rem rgba(79, 11, 188, 0.5);
+       }
+
+
+       .enroll-button:not([disabled]):hover {
+           box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(79, 11, 188, 0.5), .125rem .125rem 1rem rgba(79, 11, 188, 0.5);
+       }
+
+
+       .BackPage-button {
+           background: linear-gradient(to bottom right, #555558, #d7dbe0);
+           border: 0;
+           border-radius: 12px;
+           color: #FFFFFF;
+           cursor: pointer;
+           display: inline-block;
+           font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+           font-size: 16px;
+           font-weight: 500;
+           line-height: 2.5;
+           outline: transparent;
+           padding: 0 1rem;
+           text-align: center;
+           text-decoration: none;
+           transition: box-shadow .2s ease-in-out;
+           user-select: none;
+           -webkit-user-select: none;
+           touch-action: manipulation;
+           white-space: nowrap;
+       }
+
+
+       .BackPage-button:not([disabled]):focus {
+           box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(35, 31, 42, 0.5), .125rem .125rem 1rem rgba(35, 31, 42, 0.5);
+       }
+
+
+       .BackPage-button:not([disabled]):hover {
+           box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(35, 31, 42, 0.5), .125rem .125rem 1rem rgba(35, 31, 42, 0.5);
+       }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Science Catalog</h1>
+    </header>
+
+    <main>
+        <h2>Available Courses</h2>
+
+        <div class="course-card">
+            <h3>Biology</h3>
+            <p>View our biology courses.</p>
+            <a href="biology.html" class="enroll-button">Next</a>
+        </div>
+
+        <div class="course-card">
+            <h3>Chemistry</h3>
+            <p>View our chemistry courses.</p>
+            <a href="chemistry.html" class="enroll-button">Next</a>
+        </div>
+
+        <div class="course-card">
+            <h3>Physics</h3>
+            <p>View our physics courses.</p>
+            <a href="physics.html" class="enroll-button">Next</a>
+        </div>
+
+        <a href="index.html" class="BackPage-button">Back to Home</a>
+
+    </main>
+
+</body>
+
+</html>
